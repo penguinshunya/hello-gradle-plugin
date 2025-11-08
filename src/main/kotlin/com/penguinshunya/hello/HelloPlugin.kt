@@ -11,7 +11,7 @@ class HelloPlugin : Plugin<Project> {
   }
 }
 
-class HelloTask : DefaultTask() {
+abstract class HelloTask : DefaultTask() {
   @TaskAction
   fun hello() {
     println("hello")

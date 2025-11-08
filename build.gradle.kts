@@ -10,7 +10,7 @@ repositories {
 }
 
 group = "com.penguinshunya"
-version = "0.0.10"
+version = "0.0.11"
 
 gradlePlugin {
   website.set("https://github.com/penguinshunya/hello-gradle-plugin")
