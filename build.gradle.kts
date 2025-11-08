@@ -1,6 +1,6 @@
 plugins {
   alias(libs.plugins.kotlin.jvm)
-  id("com.gradle.plugin-publish") version "2.0.0"
+  alias(libs.plugins.publish)
 }
 
 repositories {
@@ -10,7 +10,7 @@ repositories {
 }
 
 group = "com.penguinshunya"
-version = "0.0.9"
+version = "0.0.10"
 
 gradlePlugin {
   website.set("https://github.com/penguinshunya/hello-gradle-plugin")
